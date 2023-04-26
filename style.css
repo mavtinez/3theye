@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+}
+
+.encabezado {
+    height: 97px;
+    background-color: #283618;
+}
+
+.encabezado h1 {
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 24px;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, #e2dbdb00 serif;
+    color: azure;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container a{
+    color: #000000;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.barra li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+}
+
+
+.season1 h2 {
+    text-align: center;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+}
+
+.hoodies h3 {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #606c38;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jeans h3 {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #606c38;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jackets h3 {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #606c38;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.pie p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+}
